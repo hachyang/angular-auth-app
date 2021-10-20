@@ -1,0 +1,7 @@
+﻿<div class="p-4">
+    <div class="container">
+        <h1>Hi {{user.firstName}}, {{user.lastName}}!</h1>
+        <p>You're logged in with Angular Web App!!</p>
+        <p><a *ngIf="user.role == 'Admin' " routerLink="/users">Manage Users As Admin</a></p>
+    </div>
+</div>
